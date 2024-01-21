@@ -36,10 +36,39 @@
     <reg name="t5" bitsize="32" type="int" group="general"/>
     <reg name="t6" bitsize="32" type="int" group="general"/>
     <reg name="pc" bitsize="32" type="code_ptr" group="general"/>
-    <reg name="extra0" bitsize="32" type="int" group="internal"/>
-    <reg name="extra1" bitsize="32" type="int" group="internal"/>
-    <reg name="extra2" bitsize="32" type="int" group="internal"/>
-    <reg name="extra3" bitsize="32" type="int" group="internal"/>
-    <reg name="extra4" bitsize="32" type="int" group="internal"/>
+
+    <reg name="pipe0" bitsize="32" type="int" group="pipe" regnum="0x51"/>
+    <reg name="pipe1" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe2" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe3" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe4" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe5" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe6" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe7" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe8" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe9" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe10" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe11" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe12" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe13" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe14" bitsize="32" type="int" group="pipe"/>
+    <reg name="pipe15" bitsize="32" type="int" group="pipe"/>
+
+    <reg name="extra0" bitsize="32" type="int" group="extra" regnum="0x61"/>
+    <reg name="extra1" bitsize="32" type="int" group="extra"/>
+    <reg name="extra2" bitsize="32" type="int" group="extra"/>
+    <reg name="extra3" bitsize="32" type="int" group="extra"/>
+    <reg name="extra4" bitsize="32" type="int" group="extra"/>
+    <reg name="extra5" bitsize="32" type="int" group="extra"/>
+    <reg name="extra6" bitsize="32" type="int" group="extra"/>
+    <reg name="extra7" bitsize="32" type="int" group="extra"/>
+    <reg name="extra8" bitsize="32" type="int" group="extra"/>
+    <reg name="extra9" bitsize="32" type="int" group="extra"/>
+    <reg name="extra10" bitsize="32" type="int" group="extra"/>
+    <reg name="extra11" bitsize="32" type="int" group="extra"/>
+    <reg name="extra12" bitsize="32" type="int" group="extra"/>
+    <reg name="extra13" bitsize="32" type="int" group="extra"/>
+    <reg name="extra14" bitsize="32" type="int" group="extra"/>
+    <reg name="extra15" bitsize="32" type="int" group="extra"/>
   </feature>
 </target>
