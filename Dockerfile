@@ -52,7 +52,9 @@ RUN make
 
 ENV PATH="/opt/bsc/bin:$PATH"
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    vim
+    vim python3.9 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /build/CA_Summer_Project
 COPY CA_Summer_Project .
@@ -64,7 +66,8 @@ WORKDIR /build/CA_Summer_Project/lab4/gdbstub
 RUN make XLEN=32 exe_gdbstub_tcp_tcp_RV32
 
 WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run
-COPY custom.xml .
+COPY xmls/*  .
+COPY help_scripts/types2xml.py .
 
 WORKDIR /home
 COPY run_scripts .

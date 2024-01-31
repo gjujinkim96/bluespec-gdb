@@ -2,6 +2,7 @@
 <!DOCTYPE target SYSTEM "gdb-target.dtd">
 <target>
   <architecture>riscv:rv32</architecture>
+
   <feature name="org.gnu.gdb.riscv.cpu">
     <reg name="zero" bitsize="32" type="int" regnum="0" group="general"/>
     <reg name="ra" bitsize="32" type="code_ptr" group="general"/>
@@ -37,12 +38,13 @@
     <reg name="t6" bitsize="32" type="int" group="general"/>
     <reg name="pc" bitsize="32" type="code_ptr" group="general"/>
 
-    <!-- <!-- <reg name="pipe0" bitsize="32" type="int" group="pipe" regnum="0x51"/>
-    <reg name="pipe1" bitsize="32" type="int" group="pipe"/>
+    <!-- Sed replace given_def.xml here. -->
+
+    <reg name="pipe0" bitsize="32" type="Fetch2Decode" group="pipe" regnum="0x51"/>
+    <!-- <reg name="pipe1" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe2" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe3" bitsize="32" type="int" group="pipe"/> -->
-    <reg name="pipe4" bitsize="32" type="int" group="pipe"/>
-    <reg name="pipe5" bitsize="32" type="int" group="pipe"/>
+    <!--<reg name="pipe5" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe6" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe7" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe8" bitsize="32" type="int" group="pipe"/>
