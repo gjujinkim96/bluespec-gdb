@@ -2,6 +2,7 @@
 
 FROM ubuntu:20.04
 WORKDIR /build
+
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     autoconf \
     automake \
@@ -27,17 +28,26 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     git \
     cmake \
     libglib2.0-dev \
-    ghc \
-    libghc-regex-compat-dev \
-    libghc-syb-dev \
-    libghc-old-time-dev \
-    libghc-split-dev \
+    libgmp10 \
     tcl-dev \
     pkg-config \
     iverilog \
     libelf-dev \
+    wget \
+    lsb-release \
+    software-properties-common \
+    gnupg2 \
+    apt-transport-https \
+    gcc \
+    vim \
+    libncurses5-dev libncursesw5-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+RUN bash -c "curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh"
+ENV PATH="/root/.ghcup/bin:$PATH"
+RUN ghcup install ghc --set recommended
+RUN cabal update && cabal v1-install regex-compat syb old-time split
 
 RUN git clone --recursive https://github.com/B-Lang-org/bsc
 WORKDIR /build/bsc
@@ -51,8 +61,9 @@ RUN ./configure --prefix=/opt/riscv
 RUN make
 
 ENV PATH="/opt/bsc/bin:$PATH"
+
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    vim python3.9 \
+    python3.9 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -67,10 +78,11 @@ RUN make XLEN=32 exe_gdbstub_tcp_tcp_RV32
 
 WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run
 COPY xmls/*  .
-COPY help_scripts/types2xml.py .
+
+WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run/types_helper
+COPY help_scripts/types_helper/*.py .
 
 WORKDIR /home
 COPY run_scripts .
-
 
 ENTRYPOINT [ "tail", "-f", "/dev/null"]

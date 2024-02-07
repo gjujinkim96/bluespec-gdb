@@ -36,11 +36,24 @@
     <reg name="t4" bitsize="32" type="int" group="general"/>
     <reg name="t5" bitsize="32" type="int" group="general"/>
     <reg name="t6" bitsize="32" type="int" group="general"/>
-    <reg name="pc" bitsize="32" type="code_ptr" group="general"/>
+    <reg name= "pc" bitsize="32" type="code_ptr" group="general"/>
 
     <!-- Sed replace given_def.xml here. -->
 
-    <reg name="pipe0" bitsize="32" type="Fetch2Decode" group="pipe" regnum="0x51"/>
+    <!-- parsing start -->
+    <reg name="f2d" bitsize="32" type="Maybe#(Fetch2Decode)" group="pipe" regnum="0x51"/>
+    <reg name="d2e" bitsize="32" type="Maybe#(Decode2Exec)" group="pipe"/>
+    <reg name="e2m" bitsize="32" type="Maybe#(Exec2Memory)" group="pipe"/>
+    <reg name="m2w" bitsize="32" type="Maybe#(Memory2WriteBack)" group="pipe"/>
+
+    <reg name="fEpoch" bitsize="32" type="bool" group="pipe"/>
+    <reg name="eEpoch" bitsize="32" type="bool" group="pipe"/>
+    <reg name="execRedirect" bitsize="32" type="code_ptr" group="pipe"/>
+
+    <reg name="stallFetch" bitsize="32" type="Fetch2Decode" group="pipe"/>
+    <reg name="ldHazard" bitsize="32" type="RIndx" group="pipe"/>
+    <reg name="exeHazard" bitsize="32" type="ForwardData" group="pipe"/>
+    <reg name="memHazard" bitsize="32" type="ForwardData" group="pipe"/>
     <!-- <reg name="pipe1" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe2" bitsize="32" type="int" group="pipe"/>
     <reg name="pipe3" bitsize="32" type="int" group="pipe"/> -->
@@ -72,5 +85,7 @@
     <reg name="extra13" bitsize="32" type="int" group="extra"/>
     <reg name="extra14" bitsize="32" type="int" group="extra"/>
     <reg name="extra15" bitsize="32" type="int" group="extra"/> -->
+
+    <!-- parsing end -->
   </feature>
 </target>
