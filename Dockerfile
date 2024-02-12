@@ -56,6 +56,8 @@ RUN make install-src && mv inst /opt/bsc
 WORKDIR /build
 RUN git clone https://github.com/riscv/riscv-gnu-toolchain
 WORKDIR /build/riscv-gnu-toolchain
+RUN git submodule update --init --recursive
+
 ENV PATH="/opt/riscv/bin:$PATH"
 RUN ./configure --prefix=/opt/riscv
 RUN make

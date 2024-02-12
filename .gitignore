@@ -1,6 +1,7 @@
 help_scripts/non-git
 help_scripts/types_helper/bit.txt
 .vscode
+riscv_gdb
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,python
