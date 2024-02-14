@@ -41,7 +41,8 @@
     <!-- Sed replace given_def.xml here. -->
 
     <!-- parsing start -->
-    <reg name="f2d" bitsize="32" type="Maybe#(Fetch2Decode)" group="pipe" regnum="0x51"/>
+    <reg name="cycle" bitsize="32" type="int" group="pipe" regnum="0x51"/>
+    <reg name="f2d" bitsize="32" type="Maybe#(Fetch2Decode)" group="pipe"/>
     <reg name="d2e" bitsize="32" type="Maybe#(Decode2Exec)" group="pipe"/>
     <reg name="e2m" bitsize="32" type="Maybe#(Exec2Memory)" group="pipe"/>
     <reg name="m2w" bitsize="32" type="Maybe#(Memory2WriteBack)" group="pipe"/>

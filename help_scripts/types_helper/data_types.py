@@ -30,12 +30,20 @@ class BasicData:
         return cls(name, f'int{expand_bits}', total_bits, expand_bits)
         
 class StructData:
-    def __init__(self, name, elems, type_mapping):
+    def __init__(self, name, elems, type_mapping, total_bits=None):
         self.name = name
         self.xml_name = name
         self.elems = elems
-        self.total_bits = sum([type_mapping[elem].total_bits for elem, elem_name in self.elems])
-        self.expand_bits = sum([type_mapping[elem].expand_bits for elem, elem_name in self.elems])
+
+        if total_bits is None:
+            self.total_bits = sum([type_mapping[elem].total_bits for elem, elem_name in self.elems])
+            self.expand_bits = sum([type_mapping[elem].expand_bits for elem, elem_name in self.elems])
+            self.wrapper_data = False
+        else:
+            self.total_bits = total_bits
+            self.expand_bits = sum([type_mapping[elem].expand_bits for elem, elem_name in self.elems])
+            self.wrapper_data = True
+
         self.class_type = 'struct'
 
     def __str__(self):
@@ -49,12 +57,18 @@ class StructData:
         return cls(name, [('Bool', 'is_valid'), (ree.extract_inner_type_from_maybe(name), 'value')], type_mapping)
 
 class EnumData:
-    def __init__(self, name, values):
+    def __init__(self, name, values, bitsize=None):
         self.name = name
         self.xml_name = name
         self.values = values
-        self.total_bits = math.ceil(math.log2(len(self.values)))
-        self.expand_bits = (len(self.values) + 256 - 1) // 256 * 8
+
+        if bitsize is None:
+            self.total_bits = math.ceil(math.log2(len(self.values)))
+            self.expand_bits = (len(self.values) + 256 - 1) // 256 * 8
+        else:
+            self.total_bits = bitsize
+            self.expand_bits = (self.total_bits + 8 - 1) // 8 * 8
+            
         self.class_type = 'enum'
 
     def __str__(self):
@@ -78,10 +92,12 @@ def default_mapping():
         'int16': BasicData('int16', 'int16', 16, 16),
         'int24': BasicData('int24', 'int24', 24, 24),
         'int32': BasicData('int32', 'int32', 32, 32),
+        'int': BasicData('int', 'int', 32, 32),
         'uint8': BasicData('uint8', 'uint8', 8, 8),
         'uint16': BasicData('uint16', 'uint16', 16, 16),
         'uint24': BasicData('uint24', 'uint24', 24, 24),
         'uint32': BasicData('uint32', 'uint32', 32, 32),
+        'uint': BasicData('uint', 'uint', 32, 32),
         'Bit#(8)': BasicData.bit_data('Bit#(8)'),
         'Bit#(16)': BasicData.bit_data('Bit#(16)'),
         'Bit#(32)': BasicData.bit_data('Bit#(32)'),

@@ -64,10 +64,11 @@ def convert_single_defs(type_alias, raw_output, type_mapping):
             else:
                 raise ValueError()
             
-            if type_name in default_mapping:
-                result[type_name] = dt.BasicData(type_name, f'int{using_bitsize}', type_dict['bitsize'], using_bitsize)
-            else:
-                result[type_name] = dt.StructData(type_name, [(f'int{using_bitsize}', 'value')], type_mapping)
+            if type_name not in default_mapping:
+                result[type_name] = dt.StructData(type_name, [(f'int{using_bitsize}', 'value')], 
+                                                  type_mapping, total_bits=type_dict['bitsize'])
+                # result[type_name] = dt.BasicData(type_name, f'int{using_bitsize}', type_dict['bitsize'], using_bitsize)
+            # else:
         else:
-            result[type_name] = dt.EnumData(type_name, type_dict['values'])
+            result[type_name] = dt.EnumData(type_name, type_dict['values'], bitsize=type_dict['bitsize'])
     return result

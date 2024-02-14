@@ -13,10 +13,15 @@ def unpack(tp_name, type_mapping):
     elif tp.class_type == 'struct':
         total_ret = []
         expand_ret = []
-        for elem_type, _ in tp.elems:
-            elem_total, elem_expand = unpack(elem_type, type_mapping)
-            total_ret.extend(elem_total)
-            expand_ret.extend(elem_expand)
+
+        if tp.wrapper_data:
+            total_ret.append(tp.total_bits)
+            expand_ret.append(tp.expand_bits)
+        else:
+            for elem_type, _ in tp.elems:
+                elem_total, elem_expand = unpack(elem_type, type_mapping)
+                total_ret.extend(elem_total)
+                expand_ret.extend(elem_expand)
         return total_ret, expand_ret
     else:
         raise ValueError(f'invalid type: {tp.class_type}')
