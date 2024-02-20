@@ -72,19 +72,24 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 WORKDIR /build/CA_Summer_Project
 COPY CA_Summer_Project .
 
-WORKDIR /build/CA_Summer_Project/lab4/src/
-RUN ./risc-v -d -p
+# WORKDIR /build/CA_Summer_Project/lab4/src/
+# RUN ./risc-v -d -p
 
-WORKDIR /build/CA_Summer_Project/lab4/gdbstub
+WORKDIR /build/CA_Summer_Project/gdbstub
 RUN make XLEN=32 exe_gdbstub_tcp_tcp_RV32
 
-WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run
-COPY xmls/*  .
+# WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run
+# COPY xmls/* .
 
-WORKDIR /build/CA_Summer_Project/lab4/gdbstub/Run/types_helper
+WORKDIR /build/CA_Summer_Project/
+COPY lab5 lab5
+COPY lab6 lab6
+COPY pb_lab5 pb_lab5
+
+WORKDIR /build/CA_Summer_Project/types_helper
 COPY help_scripts/types_helper/*.py .
 
-WORKDIR /home
-COPY run_scripts .
+WORKDIR /build/CA_Summer_Project/pb_lab5/run_scripts
+RUN ./debug_compile.sh
 
 ENTRYPOINT [ "tail", "-f", "/dev/null"]

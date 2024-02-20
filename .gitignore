@@ -1,6 +1,9 @@
 help_scripts/non-git
 help_scripts/types_helper/bit.txt
 .vscode
+.DS_Store
+lab5/
+lab6/
 riscv_gdb
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,python

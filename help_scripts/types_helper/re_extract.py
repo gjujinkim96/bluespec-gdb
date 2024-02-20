@@ -76,6 +76,14 @@ def remove_function(raw):
     pat = r'function[\s\S]*?endfunction'
     return re.sub(pat, '', raw)
 
+def remove_rule(raw):
+    pat = r'rule[\s\S]*?endrule'
+    return re.sub(pat, '', raw)
+
+def remove_module(raw):
+    pat = r'module[\s\S]*?endmodule'
+    return re.sub(pat, '', raw)
+
 def remove_enums(raw):
     pat = r'typedef\s*enum[\s\S]*?;'
     return re.sub(pat, '', raw)

@@ -4,7 +4,7 @@ import converter as cv
 
 def update_type_mapping_from_bsc(file, type_mapping):
     cleanings = [ree.remove_multi_line_comments, ree.remove_single_line_comments, ree.remove_imports, \
-                 ree.remove_interface, ree.remove_function]
+                 ree.remove_module, ree.remove_rule, ree.remove_interface, ree.remove_function]
     
     output = file
     for clean in cleanings:
