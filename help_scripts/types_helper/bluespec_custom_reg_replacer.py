@@ -3,10 +3,7 @@ import sys
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(
-                    prog='main_xml',
-                    # description="Create 'type' to be used in target description in xml format"
-                    )
+    parser = argparse.ArgumentParser()
     parser.add_argument('--proc', help="Proc bsc file", required=True)
     parser.add_argument('--custom_reg_code', help='custom_reg code for debugging', required=True)
     args = parser.parse_args()

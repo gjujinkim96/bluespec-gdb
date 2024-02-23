@@ -26,6 +26,8 @@ def main():
         lines = f.readlines()
 
     raw_output = '\n'.join(lines)
+    pat =  r'<!--[\s\S]*?-->'
+    raw_output = re.sub(pat, '', raw_output)
     pat = r'<\s*?data\s*?gdb_name\s*?=\s*?"([\s\S]*?)"\s+?bluespec_name\s*?=\s*?"([\s\S]*?)"\s+?bluespec_type\s*?=\s*?"([\s\S]*?)">'
     entries = re.findall(pat, raw_output)
 

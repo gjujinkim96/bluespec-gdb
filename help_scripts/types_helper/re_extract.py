@@ -26,6 +26,10 @@ def process_enum_elements_from_shucked(shucked):
     pat = r'(\S+?)(?:\s*?=\s*?([\dobh\'a-fA-F]+?)\s*?)??(?:,|\s*?$)'
     return re.findall(pat, shucked)
 
+def process_def_and_new_type_from_type_alias(type_alias):
+    pat = r'typedef\s+?(\S+?)\s+?(\S+?);'
+    return re.findall(pat, type_alias)
+
 def process_bitsize_and_name_from_type_alias(type_alias):
     pat = r'typedef\s+?Bit#\((\d+)\)\s+?(\S+);' # ignore void
     return re.findall(pat, type_alias) # [(bitsize, name), (bitsize, name)] 
@@ -38,6 +42,17 @@ def process_maybes_from_structs(structs):
     pat = r'(Maybe#\((\S+?)\))'
     return re.findall(pat, structs)
 
+def process_debug_vars(raw):
+    pat = r'<\s*?data\s*?gdb_name\s*?=\s*?"([\s\S]*?)"\s+?bluespec_name\s*?=\s*?"([\s\S]*?)"\s+?bluespec_type\s*?=\s*?"([\s\S]*?)">'
+    return re.findall(pat, raw)
+
+'''
+Bit#(32) => True
+Uint#(32) => True
+'''
+def check_is_common_bit_type(type_name):
+    pat = r'(\S+?)#\((\S+?)\)'
+    return re.match(pat, type_name) is not None
 
 
 def extract_data_type_from_raw(raw):
@@ -48,9 +63,15 @@ def extract_data_type_from_raw(raw):
         raise ValueError('unsupported data type')
     return data_type
 
-def extract_bitsize_from_bitsharp(raw):
-    pat = r'Bit#\((\S+)\)'
-    return int(re.match(pat, raw).group(1))
+'''
+Bit#(32) => 32
+Bit#(AddrSz) => AddrSz
+'''
+def extract_bitsize_from_common_bit_type(raw):
+    pat = r'\S+?#\((\S+?)\)'
+    return re.match(pat, raw).group(1)
+
+
 
 def extract_inner_type_from_maybe(raw):
     pat = r'Maybe#\((\S+)\)'
@@ -62,6 +83,10 @@ def remove_multi_line_comments(raw):
 
 def remove_single_line_comments(raw):
     pat = r'//[\s\S]*?(?=$|\n)'
+    return re.sub(pat, '', raw)
+
+def remove_xml_comments(raw):
+    pat =  r'<!--[\s\S]*?-->'
     return re.sub(pat, '', raw)
 
 def remove_imports(raw):
@@ -103,3 +128,15 @@ def remove_simple_bit_constants(raw):
 def remove_unnecessary_newline(raw):
     pat = r'\s*\n'
     return re.sub(pat, '\n', raw)
+
+def replace_bsv_code(new_code, custom_code):
+    pat = r'(// Custom Reg Replacment START // DO NOT MODIFY)([\s\S]*?)(// Custom Reg Replacment END // DO NOT MODIFY)'
+    return re.sub(pat, rf'\1\n{new_code}\n\3', custom_code)
+
+def replace_type_xml(type_code, base_xml):
+    pat = r'<!-- Replace with types here. -->'
+    return re.sub(pat, type_code, base_xml)
+
+def replace_custom_regs(type_code, base_xml):
+    pat = r'<!-- Replace with custom regs here. -->'
+    return re.sub(pat, type_code, base_xml)

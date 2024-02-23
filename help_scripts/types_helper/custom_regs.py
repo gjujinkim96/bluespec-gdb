@@ -26,7 +26,7 @@ def remove_xml_comments_from_raw(raw):
     return re.sub(pat, '', raw)
 
 def process_custom_regs_from_raw(raw):
-    pat = r'<reg\s+?name\s*?=\s*?"(\S+?)"\s+?bitsize\s*?=\s*?"\S+?"\s+?type\s*?=\s*?"(\S+?)"\s+?group\s*?=\s*?"(\S+?)"(?:\s+?regnum\s*?=\s*?"(\S+?)"\s*?)?\s*?/>'
+    pat = r'<reg\s+?name\s*?=\s*?"([\s\S]*?)"\s+?bitsize\s*?=\s*?"\S+?"\s+?type\s*?=\s*?"(\S+?)"\s+?group\s*?=\s*?"(\S+?)"(?:\s+?regnum\s*?=\s*?"(\S+?)"\s*?)?\s*?/>'
     return re.findall(pat, raw)
 
 def check_type_maybe(tp):

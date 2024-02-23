@@ -1,0 +1,18 @@
+<reg name="cycle" bitsize="32" type="data_ptr" group="pipe" regnum="0x51" />
+<reg name="                                                                                                                                                           " bitsize="32" type="bool" group="pipe" />
+<reg name="f2d.inst" bitsize="32" type="int32" group="pipe" />
+<reg name="f2d.pc" bitsize="32" type="code_ptr" group="pipe" />
+<reg name="f2d.ppc" bitsize="32" type="code_ptr" group="pipe" />
+<reg name="f2d.epoch" bitsize="32" type="bool" group="pipe" />
+<reg name="                                                                                                                                                           " bitsize="32" type="bool" group="pipe" />
+<reg name="d2r.dInst.iType" bitsize="32" type="IType" group="pipe" />
+<reg name="d2r.dInst.aluFunc" bitsize="32" type="AluFunc" group="pipe" />
+<reg name="d2r.dInst.brFunc" bitsize="32" type="BrFunc" group="pipe" />
+<reg name="d2r.dInst.dst" bitsize="32" type="Maybe#(RIndx)" group="pipe" />
+<reg name="d2r.dInst.src1" bitsize="32" type="Maybe#(RIndx)" group="pipe" />
+<reg name="d2r.dInst.src2" bitsize="32" type="Maybe#(RIndx)" group="pipe" />
+<reg name="d2r.dInst.csr" bitsize="32" type="Maybe#(CsrIndx)" group="pipe" />
+<reg name="d2r.dInst.imm" bitsize="32" type="Maybe#(Data)" group="pipe" />
+<reg name="d2r.pc" bitsize="32" type="code_ptr" group="pipe" />
+<reg name="d2r.ppc" bitsize="32" type="code_ptr" group="pipe" />
+<reg name="d2r.epoch" bitsize="32" type="bool" group="pipe" />

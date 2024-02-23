@@ -4,27 +4,6 @@ import custom_regs as cr
 import types2xml
 import argparse
 
-def unpack(tp_name, type_mapping):
-    tp = type_mapping[tp_name]
-    if tp.class_type == 'basic':
-        return [tp.total_bits], [tp.expand_bits]
-    elif tp.class_type == 'enum':
-        return [tp.total_bits], [tp.expand_bits]
-    elif tp.class_type == 'struct':
-        total_ret = []
-        expand_ret = []
-
-        if tp.wrapper_data:
-            total_ret.append(tp.total_bits)
-            expand_ret.append(tp.expand_bits)
-        else:
-            for elem_type, _ in tp.elems:
-                elem_total, elem_expand = unpack(elem_type, type_mapping)
-                total_ret.extend(elem_total)
-                expand_ret.extend(elem_expand)
-        return total_ret, expand_ret
-    else:
-        raise ValueError(f'invalid type: {tp.class_type}')
 
 def main():
     parser = argparse.ArgumentParser(

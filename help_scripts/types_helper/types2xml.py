@@ -1,7 +1,13 @@
 import xml.etree.ElementTree as ET
 import converter as cv
 
-def xml_conversion_needed(tp):
+def xml_conversion_needed(tp, type_mapping):
+    if tp.class_type == 'constant':
+        if tp.value in type_mapping:
+            return xml_conversion_needed(type_mapping[tp.value], type_mapping)
+        else:
+            return False
+    
     handler = {
         'struct': True,
         'enum': True,
@@ -70,6 +76,9 @@ def make_enum_xml(tp, type_mapping):
     return xml
 
 def make_xml(tp, type_mapping):
+    if tp.class_type == 'constant':
+        return make_xml(type_mapping[tp.value], type_mapping)
+    
     handler = {
         'struct': make_struct_xml,
         'enum': make_enum_xml

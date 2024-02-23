@@ -37,38 +37,55 @@ def convert(data, type_mapping):
     else:
         raise ValueError()
 
-default_mapping = dt.default_mapping()
+'''
 
+type_alias examples
+typedef Bit#(5) RIndx;
+
+typedef Bit#(7) Opcode;
+
+single def examples
+Opcode opLoad    = 7'b0000011;
+Opcode opMiscMem = 7'b0001111;
+Opcode opOpImm   = 7'b0010011;
+
+
+
+'''
 def convert_single_defs(type_alias, raw_output, type_mapping):
-    bitsize_and_names = ree.process_bitsize_and_name_from_type_alias('\n'.join(type_alias))
-    type_alias_dict = {}
-    for bitsize, name in bitsize_and_names:
-        type_alias_dict[name] = {
-            'bitsize': int(bitsize),
-            'values': []
-        }
+    types = ree.process_def_and_new_type_from_type_alias('\n'.join(type_alias))
+
+    common_bit_types = {}
+
+    for old_type, new_type in types:
+        if old_type == 'void':
+            continue
+
+        if ree.check_is_common_bit_type(old_type):
+            common_bit_types[new_type] = {
+                'old_type': old_type,
+                'values': [],
+                'bitsize': ree.extract_bitsize_from_common_bit_type(old_type)
+            }
+        else:
+            try:
+                constant = int(old_type)
+            except ValueError:
+                constant = old_type
+            type_mapping[new_type] =  dt.Constant(new_type, constant, type_mapping)
 
     enum_elems = ree.process_enum_elements_from_single_defs(raw_output)
-    for tp, enum_name, value in enum_elems:
-        type_alias_dict[tp]['values'].append((enum_name, value))
+    for type, enum_name, value in enum_elems:
+        common_bit_types[type]['values'].append((enum_name, value))
 
-    result = {}
-    for type_name, type_dict in type_alias_dict.items():
-        if len(type_dict['values']) == 0:
-            if type_dict['bitsize'] <= 8:
-                using_bitsize = 8
-            elif type_dict['bitsize'] <= 16:
-                using_bitsize = 16
-            elif type_dict['bitsize'] <= 32:
-                using_bitsize = 32
+
+    for type_name, type_dict in common_bit_types.items():
+        if (len(type_dict['values']) == 0):
+            if type_dict['old_type'].startswith('Maybe'):
+                type_datum = dt.StructData.maybe_data(type_dict['old_type'], type_mapping)
             else:
-                raise ValueError()
-            
-            if type_name not in default_mapping:
-                result[type_name] = dt.StructData(type_name, [(f'int{using_bitsize}', 'value')], 
-                                                  type_mapping, total_bits=type_dict['bitsize'])
-                # result[type_name] = dt.BasicData(type_name, f'int{using_bitsize}', type_dict['bitsize'], using_bitsize)
-            # else:
+                type_datum = dt.BasicData.common_bit_data(type_dict['old_type'], type_mapping)  
         else:
-            result[type_name] = dt.EnumData(type_name, type_dict['values'], bitsize=type_dict['bitsize'])
-    return result
+            type_datum = dt.EnumData(type_name, type_dict['values'], total_bits=type_dict['bitsize'])
+        type_mapping[type_name] = type_datum
+
