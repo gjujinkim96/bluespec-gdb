@@ -90,6 +90,13 @@ WORKDIR /build/CA_Summer_Project/types_helper
 COPY help_scripts/types_helper/*.py .
 
 WORKDIR /build/CA_Summer_Project/pb_lab5/run_scripts
-RUN ./debug_compile.sh
+RUN ./normal_compile.sh
+# RUN ./debug_compile.sh
 
-ENTRYPOINT [ "tail", "-f", "/dev/null"]
+ARG run_scripts_path=/build/CA_Summer_Project/pb_lab5/run_scripts/
+RUN echo ' \n\
+. ${run_scripts_path}auto_complete_process_run.sh \n\
+'  >> ~/.bashrc
+
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
