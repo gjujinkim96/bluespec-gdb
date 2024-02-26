@@ -1,0 +1,5438 @@
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 155 to 65535.
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 155 to 65535.
+Fetch from pc :          0
+
+Cycle          0 ----------------------------------------------------
+Decode
+Fetch from pc :          4
+
+Cycle          1 ----------------------------------------------------
+Execute
+Decode
+Fetch from pc :          8
+
+Cycle          2 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch from pc :         12
+
+Cycle          3 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         16
+
+Cycle          4 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         32
+
+Cycle          5 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         36
+
+Cycle          6 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         40
+
+Cycle          7 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         44
+
+Cycle          8 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         48
+
+Cycle          9 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         10 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         11 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle         12 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle         13 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle         14 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle         15 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle         16 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         17 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         18 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         19 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         20 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle         21 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         22 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         23 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle         24 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle         25 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle         26 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle         27 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         28 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         29 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle         30 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle         31 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle         32 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle         33 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle         34 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         35 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         36 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         37 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         38 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle         39 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         40 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         41 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle         42 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle         43 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle         44 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle         45 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         46 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         47 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle         48 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle         49 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle         50 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle         51 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle         52 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         53 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         54 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         55 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         56 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle         57 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         58 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         59 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle         60 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle         61 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle         62 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle         63 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         64 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         65 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle         66 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle         67 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle         68 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle         69 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle         70 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         71 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         72 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         73 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         74 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle         75 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         76 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         77 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle         78 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle         79 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle         80 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle         81 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         82 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle         83 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle         84 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle         85 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle         86 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle         87 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle         88 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle         89 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle         90 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         91 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle         92 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle         93 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         94 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle         95 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle         96 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle         97 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle         98 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle         99 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        100 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        101 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        102 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        103 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        104 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        105 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        106 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        107 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        108 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        109 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        110 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        111 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        112 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        113 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        114 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        115 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        116 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        117 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        118 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        119 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        120 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        121 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        122 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        123 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        124 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        125 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        126 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        127 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        128 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        129 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        130 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        131 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        132 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        133 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        134 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        135 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        136 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        137 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        138 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        139 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        140 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        141 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        142 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        143 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        144 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        145 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        146 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        147 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        148 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        149 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        150 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        151 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        152 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        153 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        154 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        155 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        156 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        157 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        158 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        159 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        160 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        161 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        162 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        163 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        164 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        165 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        166 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        167 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        168 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        169 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        170 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        171 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        172 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        173 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        174 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        175 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        176 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        177 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        178 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        179 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        180 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        181 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        182 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        183 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        184 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        185 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        186 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        187 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        188 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        189 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        190 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        191 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        192 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        193 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        194 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        195 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        196 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        197 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        198 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        199 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        200 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        201 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        202 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        203 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        204 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        205 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        206 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        207 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        208 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        209 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        210 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        211 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        212 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        213 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        214 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        215 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        216 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        217 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        218 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        219 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        220 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        221 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        222 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        223 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        224 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        225 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        226 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        227 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        228 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        229 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        230 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        231 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        232 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        233 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        234 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        235 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        236 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        237 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        238 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        239 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        240 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        241 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        242 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        243 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        244 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        245 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        246 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        247 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        248 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        249 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        250 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        251 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        252 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        253 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        254 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        255 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        256 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        257 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        258 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        259 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        260 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        261 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        262 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        263 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        264 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        265 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        266 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        267 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        268 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        269 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        270 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        271 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        272 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        273 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        274 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        275 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        276 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        277 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        278 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        279 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        280 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        281 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        282 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        283 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        284 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        285 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        286 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        287 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        288 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        289 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        290 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        291 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        292 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        293 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        294 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        295 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        296 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        297 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        298 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        299 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        300 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        301 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        302 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        303 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        304 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        305 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        306 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        307 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        308 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        309 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        310 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        311 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        312 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        313 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        314 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        315 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        316 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        317 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        318 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        319 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        320 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        321 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        322 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        323 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        324 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        325 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        326 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        327 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        328 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        329 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        330 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        331 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        332 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        333 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        334 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        335 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        336 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        337 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        338 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        339 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        340 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        341 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        342 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        343 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        344 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        345 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        346 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        347 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        348 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        349 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        350 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        351 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        352 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        353 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        354 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        355 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        356 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        357 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        358 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         52
+
+Cycle        359 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         56
+
+Cycle        360 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        361 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         60
+
+Cycle        362 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         64
+
+Cycle        363 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        364 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         68
+
+Cycle        365 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         72
+
+Cycle        366 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         76
+
+Cycle        367 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         80
+
+Cycle        368 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         84
+
+Cycle        369 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        370 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         88
+
+Cycle        371 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         92
+
+Cycle        372 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         96
+
+Cycle        373 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        100
+
+Cycle        374 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        104
+
+Cycle        375 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        108
+
+Cycle        376 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        112
+
+Cycle        377 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        378 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        379 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        380 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        381 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        382 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        383 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        384 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        385 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        386 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        387 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        388 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        389 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        390 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        391 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        392 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        393 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        394 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        395 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        396 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        397 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        398 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        399 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        400 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        401 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        402 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        403 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        404 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        405 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        406 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        407 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        408 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        409 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        410 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        411 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        412 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        413 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        414 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        415 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        416 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        417 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        418 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        419 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        420 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        421 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        422 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        423 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        424 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        425 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        426 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        427 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        428 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        429 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        430 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        431 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        432 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        433 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        434 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        435 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        436 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        437 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        438 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        439 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        440 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        441 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        442 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        443 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        444 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        445 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        446 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        447 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        448 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        449 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        450 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        451 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        452 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        453 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        454 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        455 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        456 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        457 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        458 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        459 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        460 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        461 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        462 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        463 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        464 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        465 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        466 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        467 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        468 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        469 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        470 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        471 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        472 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        473 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        474 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        475 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        476 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        477 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        478 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        479 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        480 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        481 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        482 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        483 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        484 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        485 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        486 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        487 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        488 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        489 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        490 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        491 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        492 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        493 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        494 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        495 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        496 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        497 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        498 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        499 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        500 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        501 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        502 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        503 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        504 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        505 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        506 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        507 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        508 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        509 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        510 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        511 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        512 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        513 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        514 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        515 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        516 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        517 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        518 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        519 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        520 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        521 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        522 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        523 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        524 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        525 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        526 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        527 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        528 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        529 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        530 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        531 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        532 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        533 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        534 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        535 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        536 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        537 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        538 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        539 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        540 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        541 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        542 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        543 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        544 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        545 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        546 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        547 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        548 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        549 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        550 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        551 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        552 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        553 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        554 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        555 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        556 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        557 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        558 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        559 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        560 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        561 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        562 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        563 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        564 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        565 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        566 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        567 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        568 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        569 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        570 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        571 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        572 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        573 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        574 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        575 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        576 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        577 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        578 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        579 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        580 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        581 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        582 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        583 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        584 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        585 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        586 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        587 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        588 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        589 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        590 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        591 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        592 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        593 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        594 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        595 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        596 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        597 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        598 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        599 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        600 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        601 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        602 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        603 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        604 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        605 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        606 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        607 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        608 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        609 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        610 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        611 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        612 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        613 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        614 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        615 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        616 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        617 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        618 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        619 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        620 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        621 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        622 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        623 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        624 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        625 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        626 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        627 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        628 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        629 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        630 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        631 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        632 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        633 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        634 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        635 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        636 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        637 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        638 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        639 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        640 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        641 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        642 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        643 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        644 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        645 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        646 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        647 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        648 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        649 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        650 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        651 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        652 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        653 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        654 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        655 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        656 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        657 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        658 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        659 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        660 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        661 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        662 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        663 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        664 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        665 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        666 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        667 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        668 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        669 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        670 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        671 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        672 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        673 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        674 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        675 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        676 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        677 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        678 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        679 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        680 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        681 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        682 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        683 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        684 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        685 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        686 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        687 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        688 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        689 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        690 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        691 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        692 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        693 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        694 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        695 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        696 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        697 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        698 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        699 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        700 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        701 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        702 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        703 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        704 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        705 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        706 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        707 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        708 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        709 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        710 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        711 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        712 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        713 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        714 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        715 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        716 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        717 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        718 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        719 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        720 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        721 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        722 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        723 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        724 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        725 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        726 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        727 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        728 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        729 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        730 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        731 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        732 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        733 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        734 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        735 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        736 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        737 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        738 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        739 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        740 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        741 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        742 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        743 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        744 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        745 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        116
+
+Cycle        746 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        120
+
+Cycle        747 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        748 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        124
+
+Cycle        749 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        128
+
+Cycle        750 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        132
+
+Cycle        751 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        136
+
+Cycle        752 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        140
+
+Cycle        753 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        754 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        144
+
+Cycle        755 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        148
+
+Cycle        756 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        152
+
+Cycle        757 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        758 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        156
+
+Cycle        759 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        160
+
+Cycle        760 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        164
+
+Cycle        761 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        168
+
+Cycle        762 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        172
+
+Cycle        763 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        176
+
+Cycle        764 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        180
+
+Cycle        765 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        180
+
+Cycle        766 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        184
+
+Cycle        767 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        188
+
+Cycle        768 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        192
+
+Cycle        769 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        196
+
+Cycle        770 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :        200
+
+Cycle        771 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         12
+
+Cycle        772 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         16
+
+Cycle        773 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         20
+
+Cycle        774 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         24
+
+Cycle        775 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         28
+
+Cycle        776 ----------------------------------------------------
+WriteBack
+Memory
+Execute
+Decode
+Fetch from pc :         32
+
+Cycle        777 ----------------------------------------------------

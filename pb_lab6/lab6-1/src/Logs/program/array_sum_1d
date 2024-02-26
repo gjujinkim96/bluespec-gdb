@@ -1,0 +1,8088 @@
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 155 to 65535.
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 155 to 65535.
+Fetch
+Fetched from          0
+
+Cycle          0 ----------------------------------------------------
+Decode
+Fetch
+Fetched from          4
+
+Cycle          1 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from          8
+
+Cycle          2 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from         12
+
+Cycle          3 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Mispredict! Fetch from         32
+Decode
+
+Cycle          4 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Fetch
+Fetched from         32
+
+Cycle          5 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         36
+
+Cycle          6 ----------------------------------------------------
+Writeback
+Execute
+Stall from         36
+Fetch
+Fetched from         36
+
+Cycle          7 ----------------------------------------------------
+Memory
+Stall from         36
+Fetch
+Fetched from         36
+
+Cycle          8 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         40
+
+Cycle          9 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         44
+
+Cycle         10 ----------------------------------------------------
+Memory
+Execute
+Stall from         44
+Fetch
+Fetched from         44
+
+Cycle         11 ----------------------------------------------------
+Writeback
+Memory
+Stall from         44
+Fetch
+Fetched from         44
+
+Cycle         12 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         48
+
+Cycle         13 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         52
+
+Cycle         14 ----------------------------------------------------
+Memory
+Execute
+Mispredict! Fetch from         92
+Decode
+
+Cycle         15 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Fetch
+Fetched from         92
+
+Cycle         16 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         96
+
+Cycle         17 ----------------------------------------------------
+Writeback
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle         18 ----------------------------------------------------
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         19 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         20 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle         21 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle         22 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle         23 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle         24 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         25 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         26 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle         27 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle         28 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         29 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         30 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle         31 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle         32 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         33 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         34 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle         35 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         36 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         37 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle         38 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle         39 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         40 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         41 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle         42 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle         43 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle         44 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle         45 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle         46 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle         47 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         48 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         49 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle         50 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle         51 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle         52 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle         53 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         54 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         55 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle         56 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle         57 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         58 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         59 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle         60 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle         61 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         62 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         63 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle         64 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         65 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         66 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle         67 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle         68 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         69 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         70 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle         71 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle         72 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle         73 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle         74 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle         75 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle         76 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         77 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle         78 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle         79 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle         80 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle         81 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle         82 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         83 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle         84 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle         85 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle         86 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         87 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle         88 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle         89 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle         90 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         91 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle         92 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle         93 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         94 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle         95 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle         96 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle         97 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         98 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle         99 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        100 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        101 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        102 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        103 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        104 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        105 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        106 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        107 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        108 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        109 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        110 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        111 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        112 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        113 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        114 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        115 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        116 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        117 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        118 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        119 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        120 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        121 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        122 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        123 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        124 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        125 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        126 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        127 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        128 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        129 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        130 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        131 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        132 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        133 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        134 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        135 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        136 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        137 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        138 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        139 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        140 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        141 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        142 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        143 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        144 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        145 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        146 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        147 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        148 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        149 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        150 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        151 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        152 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        153 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        154 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        155 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        156 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        157 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        158 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        159 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        160 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        161 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        162 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        163 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        164 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        165 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        166 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        167 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        168 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        169 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        170 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        171 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        172 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        173 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        174 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        175 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        176 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        177 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        178 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        179 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        180 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        181 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        182 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        183 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        184 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        185 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        186 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        187 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        188 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        189 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        190 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        191 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        192 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        193 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        194 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        195 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        196 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        197 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        198 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        199 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        200 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        201 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        202 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        203 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        204 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        205 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        206 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        207 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        208 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        209 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        210 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        211 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        212 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        213 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        214 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        215 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        216 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        217 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        218 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        219 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        220 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        221 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        222 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        223 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        224 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        225 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        226 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        227 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        228 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        229 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        230 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        231 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        232 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        233 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        234 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        235 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        236 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        237 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        238 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        239 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        240 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        241 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        242 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        243 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        244 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        245 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        246 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        247 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        248 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        249 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        250 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        251 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        252 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        253 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        254 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        255 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        256 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        257 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        258 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        259 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        260 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        261 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        262 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        263 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        264 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        265 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        266 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        267 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        268 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        269 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        270 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        271 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        272 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        273 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        274 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        275 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        276 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        277 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        278 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        279 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        280 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        281 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        282 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        283 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        284 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        285 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        286 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        287 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        288 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        289 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        290 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        291 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        292 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        293 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        294 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        295 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        296 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        297 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        298 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        299 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        300 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        301 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        302 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        303 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        304 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        305 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        306 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        307 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        308 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        309 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        310 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        311 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        312 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        313 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        314 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        315 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        316 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        317 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        318 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        319 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        320 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        321 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        322 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        323 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        324 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        325 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        326 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        327 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        328 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        329 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        330 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        331 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        332 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        333 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        334 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        335 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        336 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        337 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        338 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        339 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        340 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        341 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        342 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        343 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        344 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        345 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        346 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        347 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        348 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        349 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        350 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        351 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        352 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        353 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        354 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        355 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        356 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        357 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        358 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        359 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        360 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        361 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        362 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        363 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        364 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        365 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        366 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        367 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        368 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        369 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        370 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        371 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        372 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        373 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        374 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        375 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        376 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        377 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        378 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        379 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        380 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        381 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        382 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        383 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        384 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        385 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        386 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        387 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        388 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        389 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        390 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        391 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        392 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        393 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        394 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        395 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        396 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        397 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        398 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        399 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        400 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        401 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        402 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        403 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        404 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        405 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        406 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        407 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        408 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        409 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        410 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        411 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        412 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        413 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        414 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        415 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        416 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        417 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        418 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        419 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        420 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        421 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        422 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        423 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        424 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        425 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        426 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        427 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        428 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        429 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        430 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        431 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        432 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        433 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        434 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        435 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        436 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        437 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        438 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        439 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        440 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        441 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        442 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        443 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        444 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        445 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        446 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        447 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        448 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        449 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        450 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        451 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        452 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        453 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        454 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        455 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        456 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        457 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        458 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        459 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        460 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        461 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        462 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        463 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        464 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        465 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        466 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        467 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        468 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        469 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        470 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        471 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        472 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        473 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        474 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        475 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        476 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        477 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        478 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        479 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        480 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        481 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        482 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        483 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        484 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        485 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        486 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        487 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        488 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        489 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        490 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        491 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        492 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        493 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        494 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        495 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        496 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        497 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        498 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        499 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        500 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        501 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        502 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        503 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        504 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        505 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        506 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        507 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        508 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        509 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        510 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        511 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        512 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        513 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        514 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        515 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        516 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        517 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        518 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        519 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        520 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        521 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        522 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        523 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        524 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        525 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        526 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        527 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        528 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        529 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        530 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        531 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        532 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        533 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        534 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        535 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        536 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        537 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        538 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        539 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        540 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        541 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        542 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        543 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        544 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        545 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        546 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        547 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        548 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        549 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        550 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        551 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        552 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        553 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        554 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        555 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        556 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        557 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        558 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        559 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        560 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        561 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        562 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        563 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        564 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        565 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        566 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        567 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        568 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        569 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        570 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        571 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        572 ----------------------------------------------------
+Execute
+Mispredict! Fetch from         52
+Decode
+
+Cycle        573 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from         52
+
+Cycle        574 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         56
+
+Cycle        575 ----------------------------------------------------
+Writeback
+Execute
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        576 ----------------------------------------------------
+Memory
+Stall from         56
+Fetch
+Fetched from         56
+
+Cycle        577 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         60
+
+Cycle        578 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         64
+
+Cycle        579 ----------------------------------------------------
+Memory
+Execute
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        580 ----------------------------------------------------
+Writeback
+Memory
+Stall from         64
+Fetch
+Fetched from         64
+
+Cycle        581 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         68
+
+Cycle        582 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         72
+
+Cycle        583 ----------------------------------------------------
+Memory
+Execute
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        584 ----------------------------------------------------
+Writeback
+Memory
+Stall from         72
+Fetch
+Fetched from         72
+
+Cycle        585 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         76
+
+Cycle        586 ----------------------------------------------------
+Execute
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        587 ----------------------------------------------------
+Memory
+Stall from         76
+Fetch
+Fetched from         76
+
+Cycle        588 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         80
+
+Cycle        589 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         84
+
+Cycle        590 ----------------------------------------------------
+Memory
+Execute
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        591 ----------------------------------------------------
+Writeback
+Memory
+Stall from         84
+Fetch
+Fetched from         84
+
+Cycle        592 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         88
+
+Cycle        593 ----------------------------------------------------
+Execute
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        594 ----------------------------------------------------
+Memory
+Stall from         88
+Fetch
+Fetched from         88
+
+Cycle        595 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from         92
+
+Cycle        596 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from         96
+
+Cycle        597 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        100
+
+Cycle        598 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        599 ----------------------------------------------------
+Writeback
+Memory
+Stall from        100
+Fetch
+Fetched from        100
+
+Cycle        600 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        104
+
+Cycle        601 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        108
+
+Cycle        602 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        112
+
+Cycle        603 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Decode
+Fetch
+Fetched from        116
+
+Cycle        604 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Mispredict! Fetch from        160
+Decode
+
+Cycle        605 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Fetch
+Fetched from        160
+
+Cycle        606 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        164
+
+Cycle        607 ----------------------------------------------------
+Writeback
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        608 ----------------------------------------------------
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        609 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        610 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        611 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        612 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        613 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        614 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        615 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        616 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        617 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        618 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        619 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        620 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        621 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        622 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        623 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        624 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        625 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        626 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        627 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        628 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        629 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        630 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        631 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        632 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        633 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        634 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        635 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        636 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        637 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        638 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        639 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        640 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        641 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        642 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        643 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        644 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        645 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        646 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        647 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        648 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        649 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        650 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        651 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        652 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        653 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        654 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        655 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        656 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        657 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        658 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        659 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        660 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        661 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        662 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        663 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        664 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        665 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        666 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        667 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        668 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        669 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        670 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        671 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        672 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        673 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        674 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        675 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        676 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        677 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        678 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        679 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        680 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        681 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        682 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        683 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        684 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        685 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        686 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        687 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        688 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        689 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        690 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        691 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        692 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        693 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        694 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        695 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        696 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        697 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        698 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        699 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        700 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        701 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        702 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        703 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        704 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        705 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        706 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        707 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        708 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        709 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        710 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        711 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        712 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        713 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        714 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        715 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        716 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        717 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        718 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        719 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        720 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        721 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        722 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        723 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        724 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        725 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        726 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        727 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        728 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        729 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        730 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        731 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        732 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        733 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        734 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        735 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        736 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        737 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        738 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        739 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        740 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        741 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        742 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        743 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        744 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        745 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        746 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        747 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        748 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        749 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        750 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        751 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        752 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        753 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        754 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        755 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        756 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        757 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        758 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        759 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        760 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        761 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        762 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        763 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        764 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        765 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        766 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        767 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        768 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        769 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        770 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        771 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        772 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        773 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        774 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        775 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        776 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        777 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        778 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        779 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        780 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        781 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        782 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        783 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        784 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        785 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        786 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        787 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        788 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        789 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        790 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        791 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        792 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        793 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        794 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        795 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        796 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        797 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        798 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        799 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        800 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        801 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        802 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        803 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        804 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        805 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        806 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        807 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        808 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        809 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        810 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        811 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        812 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        813 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        814 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        815 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        816 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        817 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        818 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        819 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        820 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        821 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        822 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        823 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        824 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        825 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        826 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        827 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        828 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        829 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        830 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        831 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        832 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        833 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        834 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        835 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        836 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        837 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        838 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        839 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        840 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        841 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        842 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        843 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        844 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        845 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        846 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        847 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        848 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        849 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        850 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        851 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        852 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        853 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        854 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        855 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        856 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        857 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        858 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        859 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        860 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        861 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        862 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        863 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        864 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        865 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        866 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        867 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        868 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        869 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        870 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        871 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        872 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        873 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        874 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        875 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        876 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        877 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        878 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        879 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        880 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        881 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        882 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        883 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        884 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        885 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        886 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        887 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        888 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        889 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        890 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        891 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        892 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        893 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        894 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        895 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        896 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        897 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        898 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        899 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        900 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        901 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        902 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        903 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        904 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        905 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        906 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        907 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        908 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        909 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        910 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        911 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        912 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        913 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        914 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        915 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        916 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        917 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        918 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        919 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        920 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        921 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        922 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        923 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        924 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        925 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        926 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        927 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        928 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        929 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        930 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        931 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        932 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        933 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        934 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        935 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        936 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        937 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        938 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        939 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        940 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        941 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        942 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        943 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        944 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        945 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        946 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        947 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        948 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        949 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        950 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        951 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        952 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        953 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        954 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        955 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        956 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        957 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        958 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        959 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        960 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        961 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        962 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        963 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        964 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        965 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        966 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        967 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        968 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle        969 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle        970 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        971 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle        972 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle        973 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        974 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle        975 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle        976 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle        977 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        978 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle        979 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle        980 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        981 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle        982 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle        983 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle        984 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        985 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle        986 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle        987 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        988 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle        989 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle        990 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle        991 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle        992 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        993 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle        994 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle        995 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle        996 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle        997 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle        998 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle        999 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1000 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1001 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1002 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1003 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1004 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1005 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1006 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1007 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1008 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1009 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1010 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1011 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1012 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1013 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1014 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1015 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1016 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1017 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1018 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1019 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1020 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1021 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1022 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1023 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1024 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1025 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1026 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1027 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1028 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1029 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1030 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1031 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1032 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1033 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1034 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1035 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1036 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1037 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1038 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1039 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1040 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1041 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1042 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1043 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1044 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1045 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1046 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1047 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1048 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1049 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1050 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1051 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1052 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1053 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1054 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1055 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1056 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1057 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1058 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1059 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1060 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1061 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1062 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1063 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1064 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1065 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1066 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1067 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1068 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1069 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1070 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1071 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1072 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1073 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1074 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1075 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1076 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1077 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1078 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1079 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1080 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1081 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1082 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1083 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1084 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1085 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1086 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1087 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1088 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1089 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1090 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1091 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1092 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1093 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1094 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1095 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1096 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1097 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1098 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1099 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1100 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1101 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1102 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1103 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1104 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1105 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1106 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1107 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1108 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1109 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1110 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1111 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1112 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1113 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1114 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1115 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1116 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1117 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1118 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1119 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1120 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1121 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1122 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1123 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1124 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1125 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1126 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1127 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1128 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1129 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1130 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1131 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1132 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1133 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1134 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1135 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1136 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1137 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1138 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1139 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1140 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1141 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1142 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1143 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1144 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1145 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1146 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1147 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1148 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1149 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1150 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1151 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1152 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1153 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1154 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1155 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1156 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1157 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1158 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1159 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1160 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1161 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1162 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1163 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1164 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1165 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1166 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1167 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1168 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1169 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1170 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1171 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1172 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1173 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1174 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1175 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1176 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1177 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1178 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1179 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1180 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1181 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1182 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1183 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1184 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1185 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1186 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1187 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1188 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1189 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1190 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1191 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1192 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1193 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1194 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1195 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1196 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1197 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1198 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1199 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1200 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1201 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1202 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1203 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1204 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1205 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1206 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1207 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1208 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1209 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1210 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1211 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1212 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1213 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1214 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1215 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1216 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1217 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1218 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1219 ----------------------------------------------------
+Execute
+Mispredict! Fetch from        116
+Decode
+
+Cycle       1220 ----------------------------------------------------
+Memory
+Execute
+Fetch
+Fetched from        116
+
+Cycle       1221 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from        120
+
+Cycle       1222 ----------------------------------------------------
+Writeback
+Execute
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1223 ----------------------------------------------------
+Memory
+Stall from        120
+Fetch
+Fetched from        120
+
+Cycle       1224 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        124
+
+Cycle       1225 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        128
+
+Cycle       1226 ----------------------------------------------------
+Memory
+Execute
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1227 ----------------------------------------------------
+Writeback
+Memory
+Stall from        128
+Fetch
+Fetched from        128
+
+Cycle       1228 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        132
+
+Cycle       1229 ----------------------------------------------------
+Execute
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1230 ----------------------------------------------------
+Memory
+Stall from        132
+Fetch
+Fetched from        132
+
+Cycle       1231 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        136
+
+Cycle       1232 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        140
+
+Cycle       1233 ----------------------------------------------------
+Memory
+Execute
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1234 ----------------------------------------------------
+Writeback
+Memory
+Stall from        140
+Fetch
+Fetched from        140
+
+Cycle       1235 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        144
+
+Cycle       1236 ----------------------------------------------------
+Execute
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1237 ----------------------------------------------------
+Memory
+Stall from        144
+Fetch
+Fetched from        144
+
+Cycle       1238 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        148
+
+Cycle       1239 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        152
+
+Cycle       1240 ----------------------------------------------------
+Memory
+Execute
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1241 ----------------------------------------------------
+Writeback
+Memory
+Stall from        152
+Fetch
+Fetched from        152
+
+Cycle       1242 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        156
+
+Cycle       1243 ----------------------------------------------------
+Execute
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1244 ----------------------------------------------------
+Memory
+Stall from        156
+Fetch
+Fetched from        156
+
+Cycle       1245 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        160
+
+Cycle       1246 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        164
+
+Cycle       1247 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        168
+
+Cycle       1248 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1249 ----------------------------------------------------
+Writeback
+Memory
+Stall from        168
+Fetch
+Fetched from        168
+
+Cycle       1250 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        172
+
+Cycle       1251 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        176
+
+Cycle       1252 ----------------------------------------------------
+Memory
+Execute
+Stall from        176
+Fetch
+Fetched from        176
+
+Cycle       1253 ----------------------------------------------------
+Writeback
+Memory
+Stall from        176
+Fetch
+Fetched from        176
+
+Cycle       1254 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        180
+
+Cycle       1255 ----------------------------------------------------
+Execute
+Stall from        180
+Fetch
+Fetched from        180
+
+Cycle       1256 ----------------------------------------------------
+Memory
+Stall from        180
+Fetch
+Fetched from        180
+
+Cycle       1257 ----------------------------------------------------
+Writeback
+Decode
+Fetch
+Fetched from        184
+
+Cycle       1258 ----------------------------------------------------
+Execute
+Decode
+Fetch
+Fetched from        188
+
+Cycle       1259 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from        192
+
+Cycle       1260 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Decode
+Fetch
+Fetched from        196
+
+Cycle       1261 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Mispredict! Fetch from         12
+Decode
+
+Cycle       1262 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Fetch
+Fetched from         12
+
+Cycle       1263 ----------------------------------------------------
+Writeback
+Memory
+Decode
+Fetch
+Fetched from         16
+
+Cycle       1264 ----------------------------------------------------
+Writeback
+Execute
+Decode
+Fetch
+Fetched from         20
+
+Cycle       1265 ----------------------------------------------------
+Memory
+Execute
+Decode
+Fetch
+Fetched from         24
+
+Cycle       1266 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Decode
+Fetch
+Fetched from         28
+
+Cycle       1267 ----------------------------------------------------
+Writeback
+Memory
+Execute
+Decode
+Fetch
+Fetched from         32
+
+Cycle       1268 ----------------------------------------------------
