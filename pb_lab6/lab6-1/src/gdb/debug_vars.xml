@@ -1,9 +1,0 @@
-<data gdb_name="cycle" bluespec_name="csrf.readCycle" bluespec_type="Data">
-<data gdb_name="                                                                                                                                                           " bluespec_name="False" bluespec_type="Bool">
-<data gdb_name="f2r" bluespec_name="f2r.first" bluespec_type="Fetch2Rest">
-
-<!-- gdb name with very long space = space in gdb -->
-<!-- must be pack()  -->
-<!-- Test if Bit#(32) works! -->
-
-
