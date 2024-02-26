@@ -82,18 +82,19 @@ RUN make XLEN=32 exe_gdbstub_tcp_tcp_RV32
 # COPY xmls/* .
 
 WORKDIR /build/CA_Summer_Project/
-COPY lab5 lab5
-COPY lab6 lab6
-COPY pb_lab5 pb_lab5
+# COPY lab5 lab5
+# COPY lab6 lab6
+# COPY pb_lab5 pb_lab5
+COPY pb_lab6 pb_lab6
 
 WORKDIR /build/CA_Summer_Project/types_helper
 COPY help_scripts/types_helper/*.py .
 
-WORKDIR /build/CA_Summer_Project/pb_lab5/run_scripts
+WORKDIR /build/CA_Summer_Project/pb_lab6/lab6-1/run_scripts
 RUN ./normal_compile.sh
 # RUN ./debug_compile.sh
 
-ARG run_scripts_path=/build/CA_Summer_Project/pb_lab5/run_scripts/
+ARG run_scripts_path=/build/CA_Summer_Project/pb_lab6/lab6-1/run_scripts/
 RUN echo ' \n\
 . ${run_scripts_path}auto_complete_process_run.sh \n\
 '  >> ~/.bashrc
